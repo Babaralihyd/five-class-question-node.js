@@ -1,0 +1,28 @@
+.contactContainer {
+    background-color: #e0f7fa; /* Background color for the container */
+    padding: 20px;             /* Padding around the container */
+    border-radius: 8px;       /* Optional: Rounded corners */
+  }
+  
+  .contactList {
+    list-style-type: none;     /* Remove bullet points */
+    padding: 0;                /* Remove padding */
+  }
+  
+  .contactItem {
+    margin: 10px 0;           /* Space between items */
+    font-size: 18px;          /* Set font size */
+    text-align: center;       /* Center the text */
+    color: #333;              /* Text color */
+  }
+  
+  .contactItem h4 {
+    margin: 0;                /* Remove default margin from h4 */
+    padding: 10px;           /* Add padding around h4 */
+    background-color: #f9f9f9; /* Background color for h4 */
+    border-radius: 4px;      /* Optional: Add rounded corners */
+    transition: background-color 0.3s; /* Smooth background transition */
+  }
+  
+  .contactItem h4:hover {
+    background-color: #e0e0e0; /* Change background color on hover */}
